@@ -5,7 +5,7 @@ pipeline {
 				steps {
 					script{
 						echo 'hello'
-					bash 'git log'
+					sh.'git log'
 				}
 			}
 		}
