@@ -5,10 +5,10 @@ pipeline {
 				steps {
 					script{
 						echo 'hello'
-						git log
-						}
-}
-}
-}
+					sh.git log
+				}
+			}
+		}
+	}
 }
 
