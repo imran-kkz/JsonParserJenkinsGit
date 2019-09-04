@@ -5,8 +5,7 @@ pipeline {
 				steps {
 					script{
 						echo 'hello'
-						GIT_LOGCMD = sh{ "git log"
-						}
+						GIT_LOGCMD = sh "git log"
 				}
 			}
 		}
